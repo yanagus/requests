@@ -1,0 +1,4 @@
+request:
+  restriction:
+    amount: 2
+    minutes: 1
