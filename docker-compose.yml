@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  requests:
+    image: requests:0.0.1
+    container_name: requests
+    build: .
+    ports:
+      - 8443:8443
